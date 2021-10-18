@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import './App.css';
-import Navbar from './Components/Navbar';
 import {BrowserRouter as Router} from 'react-router-dom';
+import Home from './pages';
 class App extends Component {
 
     state={
@@ -26,7 +26,7 @@ class App extends Component {
     render() {
       return(
         <Router>
-        <Navbar/>
+        <Home/>       
         <div>Enter the year:<input onChange={this.handleDateChange} type="text" ref="number"/>
          <p>Answer:{this.state.text}</p>
         
