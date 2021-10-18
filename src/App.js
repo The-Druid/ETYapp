@@ -26,11 +26,11 @@ class App extends Component {
     render() {
       return(
         <Router>
-        <Home/>       
-        <div>Enter the year:<input onChange={this.handleDateChange} type="text" ref="number"/>
-         <p>Answer:{this.state.text}</p>
-        
-        </div>
+            <Home/>       
+            <div>Enter the year:<input onChange={this.handleDateChange} type="text" ref="number"/>
+            <p>Answer:{this.state.text}</p>
+            
+            </div>
         </Router>
         
       );

@@ -16,7 +16,7 @@ const Navbar = ({toggle}) => {
             <Nav>
                 <NavbarContainer>
                     <NavLogo to="/">
-                        ETYapp - Enter the Year
+                        ETYapp
                     </NavLogo>
                     <MobileIcon onClick={toggle}>
                         <FaBars />
